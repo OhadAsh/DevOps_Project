@@ -6,7 +6,7 @@ node('master') {
    bat 'mvn package'
   }
   stage('Deploy') {
-    if (env.GIT_BRANCH == 'master') {
+    if (env.BRANCH_NAME == 'master') {
       bat 'copy target\\OhadSaharReutF.war "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps\\OhadSaharReutF.war" '
     }
   }
