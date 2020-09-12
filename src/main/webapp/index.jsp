@@ -3,7 +3,7 @@
   <title>Echoing HTML Request Parameters</title>
 </head>
 <body>
-  <h3>Choose a Name Please :)</h3>
+  <h3>Choose a Name Please and Query :)</h3>
   <form method="get">
     <input type="checkbox" name="author" value="Sahar">Sahar
     <input type="checkbox" name="author" value="Ohad">Ohad
